@@ -116,8 +116,17 @@ h2{
 }
 .work_info h1{
     color: white;
-    line-height: 200px;     
+    line-height: 95px;     
     margin: 0 auto;
+    padding-left: 100px;
+    padding-top: 60px;
 }
 
+.work_anchor{
+    float: right;     
+}
 
+.work_anchor a{
+    margin-right: 100px;
+   margin-top: 10px;
+}
