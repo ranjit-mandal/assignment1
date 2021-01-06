@@ -3,11 +3,41 @@ body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0 auto;
+    background-image: url("images/top-banner.png");
+    background-size: cover;    
+    background-attachment: fixed;
+}
+
+.top_bar{
+    width: 100%;
+    background-color: lightblue;   
+}
+
+.logo_part{
+    width: 60%;
+}
+
+.menu_part{
+width: 40%;
+float: right;
+}
+
+.menu_part ul li{
+    display: inline-block;    
+}
+
+.menu_part ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin: 20px;
 }
 
 .introduction{
     width: 100%;
-    margin: 0px auto;    
+    margin: 0px auto;
+    padding-top: 100px;    
 }
 .half_width{
     width: 40%;
@@ -34,11 +64,12 @@ font-family: 'Oswald', sans-serif;
 .name_highlight{
     color:salmon;    
 }
+
 p{
     font-weight: 300;
     color:dimgray;
     width: 90%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 10px;
     text-align: justify;   
 }
@@ -129,4 +160,45 @@ h2{
 .work_anchor a{
     margin-right: 100px;
    margin-top: 10px;
+}
+
+
+
+footer{
+    width: 100%;
+    display: inline-block;
+    
+}
+.footer h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+    font-family: 'Oswald', sans-serif;
+}
+.footer h3{
+    color: dimgray;   
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.portfolio{
+    width: 80%;    
+    margin: 0 auto;
+}
+
+.portfolio h2{
+    text-align: center;
+    background-color: yellow;
+    color:blue;
+}
+
+.port_third{ 
+    width: 30%;
+    float: right;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    border-radius: 10px;
 }
