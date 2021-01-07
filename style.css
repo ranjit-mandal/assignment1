@@ -152,9 +152,14 @@ h2{
     padding-left: 100px;
     padding-top: 60px;
 }
+.work_text{
+position: absolute;
+}
 
 .work_anchor{
-    float: right;     
+    float: right;
+    position: relative;     
+    top: 80px;
 }
 
 .work_anchor a{
@@ -162,7 +167,9 @@ h2{
    margin-top: 10px;
 }
 
-
+#download::before{
+    content: "⏬ ";
+}
 
 footer{
     width: 100%;
